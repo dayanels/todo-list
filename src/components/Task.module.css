@@ -1,0 +1,51 @@
+.cardTask {
+  width: 100%;
+  min-height: 4.5rem;
+
+  display: grid;
+  grid-template-columns: 3rem 1fr 3rem;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  border: 1px solid var(--gray-500);
+  background: var(--gray-400);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.cardTask + .cardTask {
+  margin-top: 0.75rem;
+}
+
+.cardTask button {
+  background: transparent;
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+
+  cursor: pointer;
+}
+.check {
+}
+
+.cardTask img.check,
+.cardTask svg {
+  width: 1.5rem;
+  height: 1.5rem;
+
+  color: var(--gray-300);
+
+  align-self: flex-start;
+}
+
+.cardTask svg:hover {
+  color: var(--danger);
+}
+
+.cardTask p {
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 140%;
+}

@@ -1,0 +1,73 @@
+.container {
+  background: var(--gray-600);
+
+  margin-top: 4rem;
+}
+
+.headerTaskList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.headerTaskList div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.headerTaskList span {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  font-weight: 700;
+  font-size: 0.75rem;
+
+  border-radius: 62rem;
+  padding: 0.125rem 0.5rem;
+}
+
+.headerTaskList div:first-child strong {
+  color: var(--blue);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.headerTaskList div:last-child strong {
+  color: var(--purple);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.list {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+
+  color: var(--gray-300);
+}
+
+.list .clipboardImg {
+  width: 3.5rem;
+  height: 3.5rem;
+
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.list span {
+  font-weight: 700;
+  line-height: 140%;
+  font-size: 1rem;
+}
+
+.list p {
+  font-size: 1rem;
+  font-weight: 400;
+}
